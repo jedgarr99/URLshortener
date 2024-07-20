@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 140px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Custom Navbar Styles */
+.navbar {
+    background-color: #4292e9 !important; /* Custom background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Shadow effect */
+  }
+  
+  .navbar .navbar-brand {
+    color: white !important; /* Text color for brand */
+    font-weight: bold; /* Optional: Make brand text bold */
+  }
+  
+  .navbar .navbar-brand2 {
+    color: white; /* Text color for additional brand text */
+    font-weight: bold; /* Makes the text bold */
+    font-size: 2rem; 
+  }
+  
+  .navbar .navbar-toggler {
+    border-color: white; /* Border color for the toggler button */
+  }
+  
+  .navbar .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,...'); /* Customize toggler icon if needed */
+  }
+
+
+
+
+.transparent-container {
+    background-color: rgba(255, 255, 255, 0.5); /* White background with 80% opacity */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for better visibility */
+  }
+
+/* Credits to Manuel Pinto https://codepen.io/P1N2O/details/pyBNzX */
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .fullscreen-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .btn-group {
+    margin: 2rem 0;
+  }
