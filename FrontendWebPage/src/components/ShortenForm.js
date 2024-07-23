@@ -15,7 +15,7 @@ const ShortenForm = () => {
   
       try {
         console.log('Sending request');
-        const response = await axios.post('https://urlshortenerbackend-jaqc.onrender.com/shorten', {
+        const response = await axios.post('https://ur-lshortener-beryl.vercel.app/shorten', {
           url: originalUrl
         });
   
