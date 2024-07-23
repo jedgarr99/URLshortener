@@ -15,7 +15,7 @@ const ShortenForm = () => {
   
       try {
         console.log('Sending request');
-        const response = await axios.post('http://localhost:5000/shorten', {
+        const response = await axios.post('https://urlshortenerbackend-jaqc.onrender.com/shorten', {
           url: originalUrl
         });
   
